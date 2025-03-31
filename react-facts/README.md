@@ -1,1 +1,1 @@
-SCRIMBA react-facts implementation
+SCRIMBA react-facts implementation. Created using VITE (Vanilla + React)
