@@ -12,10 +12,10 @@ function App() {
   const logo = createElement('img', { src: reactLogo, alt: 'React Logo', width: '40px'})
   
   const items = ['Was first created in 2013', 
-                  'Was originally created by Jordan Walke', 
-                  'Has well over 100k stars on GitHub', 
-                  'Is maintained by Meta (formerly Facebook)', 
-                  'Powers thousands of enterprise apps, including mobile apps']
+                'Was originally created by Jordan Walke', 
+                'Has well over 100k stars on GitHub', 
+                'Is maintained by Meta (formerly Facebook)', 
+                'Powers thousands of enterprise apps, including mobile apps']
 
   const ul1 = createElement('ul', { className: 'list' }, items.map((item, index) => createElement('li', { key: index }, item)))
 
@@ -27,3 +27,4 @@ function App() {
 }
 
 export default App
+
